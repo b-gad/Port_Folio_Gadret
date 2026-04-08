@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -191,7 +191,7 @@
     color: var(--accent);
   }
 
-  /* QUI JE SUIS */
+  /* ABOUT */
   .about-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -364,7 +364,7 @@
     font-weight: 300;
   }
 
-  /* LARGE STAT */
+  /* STATS */
   .stats-row {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -423,7 +423,6 @@
     letter-spacing: 0.1em;
   }
 
-  /* PLACEHOLDER IMAGE */
   .photo-placeholder {
     width: 100%;
     aspect-ratio: 3/4;
@@ -446,7 +445,6 @@
 
   .photo-placeholder .ph-icon { font-size: 2rem; opacity: 0.3; }
 
-  /* ANIMATIONS */
   @keyframes fadeUp {
     from { opacity: 0; transform: translateY(20px); }
     to { opacity: 1; transform: translateY(0); }
@@ -463,7 +461,6 @@
     transform: translateY(0);
   }
 
-  /* RESPONSIVE */
   @media (max-width: 768px) {
     .hero { padding: 5rem 2rem 3rem; }
     section { padding: 4rem 2rem; }
@@ -480,64 +477,61 @@
 </head>
 <body>
 
-<!-- HERO -->
 <section class="hero" style="max-width:100%; border-bottom: 1px solid var(--card-border); padding: 6rem 4rem 4rem;">
-  <div class="hero-eyebrow">Portfolio — Candidature Master's</div>
+  <div class="hero-eyebrow">Portfolio — Master's Application</div>
   <div class="hero-number">2025 — 2026</div>
   <h1 class="hero-name">
     Benoît<br>
     <span>Gadret</span>
   </h1>
-  <p class="hero-sub">Élève-ingénieur en premièere année aux Arts et Métiers.</p>
-  <div class="hero-scroll">Défiler pour découvrir</div>
+  <p class="hero-sub">First-year engineering student at Arts et Métiers (ENSAM).</p>
+  <div class="hero-scroll">Scroll to explore</div>
 </section>
 
-<!-- NAV -->
 <nav class="nav-strip">
-  <a href="#about">Qui je suis</a>
-  <a href="#academique">Académique</a>
-  <a href="#sportif">Sport</a>
-  <a href="#associatif">Associatif</a>
-  <a href="#extrascolaire">Extrascolaire</a>
-  <a href="#projets-acad">Projets acad.</a>
+  <a href="#about">About</a>
+  <a href="#academique">Academics</a>
+  <a href="#sportif">Sports</a>
+  <a href="#associatif">Engagement</a>
+  <a href="#extrascolaire">Hobbies</a>
+  <a href="#projets-acad">Academic Projects</a>
   <a href="#side-projects">Side projects</a>
   <span class="nav-name">B. Gadret</span>
 </nav>
 
-<!-- QUI JE SUIS -->
 <section id="about">
   <div class="section-header reveal">
     <span class="section-num">01</span>
-    <h2 class="section-title">Qui je <em>suis</em></h2>
+    <h2 class="section-title">Who I <em>am</em></h2>
   </div>
   <div class="about-grid">
     <div class="about-text reveal">
-      <p>Depuis vingt et un ans, mon quotidien se conjugue au 'nous'. Grandir avec un frère jumeau, c'est avoir un miroir constant, c'est être né en équipe.</p>
-      <p>Cette relation m'a imposé une évidence : un projet ambitieux prend vie grâce à la synergie de talents complémentaires. Elle m'a aussi enseigné une saine compétition, me poussant très tôt à me singulariser par une forte discipline.</p>
-      <p>Pendant douze ans, le piano a été mon socle. Sur les terrains de rugby, j'ai appris à porter une équipe. À Lourdes, j'ai compris que la technique n'a de sens que si elle sert l'humain.</p>
-      <p>Aujourd'hui, mon frère et moi suivons le même parcours dans deux pays différents. J'emporte avec moi l'héritage de cette vie à deux : une exigence forgée dans la compétition et un sens du collectif devenu instinctif.</p>
+      <p>For twenty-one years, my daily life has been defined by "us." Growing up with a twin brother means having a constant mirror; it means being born into a team.</p>
+      <p>This relationship made one thing clear: ambitious projects come to life through the synergy of complementary talents. It also taught me healthy competition, pushing me early on to stand out through strong discipline.</p>
+      <p>For twelve years, the piano was my foundation. On the rugby field, I learned how to carry a team. In Lourdes, I understood that technical skill only matters if it serves others.</p>
+      <p>Today, my brother and I follow the same path in two different countries. I carry with me the legacy of this life for two: a standard of excellence forged in competition and a sense of collective purpose that has become instinctive.</p>
     </div>
     <div class="reveal">
       <div class="photo-placeholder">
         <span class="ph-icon">◻</span>
-        <span>Photo à ajouter</span>
+        <span>Photo to add</span>
       </div>
       <div class="about-facts" style="margin-top: 1px;">
         <div class="fact-row">
-          <span class="fact-label">Formation</span>
+          <span class="fact-label">Education</span>
           <span class="fact-value">ENSAM — Arts et Métiers</span>
         </div>
         <div class="fact-row">
-          <span class="fact-label">Spécialisation</span>
-          <span class="fact-value">Ingénierie automobile verte</span>
+          <span class="fact-label">Specialization</span>
+          <span class="fact-value">Green Automotive Engineering</span>
         </div>
         <div class="fact-row">
-          <span class="fact-label">Langues</span>
-          <span class="fact-value">Français · Anglais · [À compléter]</span>
+          <span class="fact-label">Languages</span>
+          <span class="fact-value">French · English · [To complete]</span>
         </div>
         <div class="fact-row">
-          <span class="fact-label">Localisation</span>
-          <span class="fact-value">France → États-Unis</span>
+          <span class="fact-label">Location</span>
+          <span class="fact-value">France → USA</span>
         </div>
         <div class="fact-row">
           <span class="fact-label">Contact</span>
@@ -548,179 +542,173 @@
   </div>
 </section>
 
-<!-- PARCOURS ACADÉMIQUE -->
 <section id="academique" style="background: var(--warm);">
   <div class="section-header reveal">
     <span class="section-num">02</span>
-    <h2 class="section-title">Parcours <em>académique</em></h2>
+    <h2 class="section-title">Academic <em>background</em></h2>
   </div>
   <div class="timeline reveal">
     <div class="timeline-item">
-      <div class="timeline-date">2023 — présent</div>
+      <div class="timeline-date">2023 — Present</div>
       <div class="timeline-content">
         <div class="school">ENSAM — Arts et Métiers</div>
-        <h3>Cycle Ingénieur</h3>
-        <p>Formation en ingénierie mécanique et systèmes. Spécialisation en cours vers l'ingénierie automobile et les mobilités durables. [Compléter avec vos résultats, classement, options choisies]</p>
+        <h3>Master of Engineering</h3>
+        <p>Core curriculum in mechanical and systems engineering. Specializing in automotive engineering and sustainable mobility. [Complete with results, ranking, or chosen electives]</p>
       </div>
     </div>
     <div class="timeline-item">
       <div class="timeline-date">2021 — 2023</div>
       <div class="timeline-content">
-        <div class="school">Classe Préparatoire — [Établissement]</div>
-        <h3>MPSI / MP — ou PSI</h3>
-        <p>Deux ans de formation intensive en mathématiques, physique et sciences de l'ingénieur. [Compléter avec votre filière, établissement et résultats aux concours]</p>
+        <div class="school">Preparatory Classes (CPGE) — [Establishment]</div>
+        <h3>Undergraduate intensive program</h3>
+        <p>Two-year intensive program in Mathematics, Physics, and Engineering Sciences. [Complete with your track, school, and competitive exam results]</p>
       </div>
     </div>
     <div class="timeline-item">
       <div class="timeline-date">2021</div>
       <div class="timeline-content">
         <div class="school">[Lycée]</div>
-        <h3>Baccalauréat — Mention [X]</h3>
-        <p>[Compléter avec votre lycée, mention et spécialités choisies]</p>
+        <h3>Baccalauréat — Honors: [X]</h3>
+        <p>French high school diploma. [Complete with school and chosen specialties]</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ENGAGEMENTS SPORTIFS -->
 <section id="sportif">
   <div class="section-header reveal">
     <span class="section-num">03</span>
-    <h2 class="section-title">Engagements <em>sportifs</em></h2>
+    <h2 class="section-title">Sports <em>engagement</em></h2>
   </div>
   <div class="stats-row reveal">
     <div class="stat-block">
       <div class="stat-num">15</div>
-      <div class="stat-label">Joueurs sous ma capitainerie</div>
+      <div class="stat-label">Players under my captaincy</div>
     </div>
     <div class="stat-block">
       <div class="stat-num">6+</div>
-      <div class="stat-label">Ans de rugby</div>
+      <div class="stat-label">Years of Rugby</div>
     </div>
     <div class="stat-block">
       <div class="stat-num">18</div>
-      <div class="stat-label">Ans — âge de la capitainerie</div>
+      <div class="stat-label">Age at captaincy</div>
     </div>
   </div>
   <div class="cards-grid reveal">
     <div class="card">
       <div class="card-tag">Rugby</div>
       <div class="card-arrow">↗</div>
-      <h3 class="card-title">Capitaine d'équipe</h3>
-     <p class="card-desc">Capitaine d'une équipe de quinze joueurs à 18 ans. Un leader n'est pas celui qui crie le plus fort, mais celui qui marche en tête et montre la voie par l'effort.</p>
-<div class="card-year">
-  Rugby Club Paris-Neuilly — 5 ans<br>
-  CPGE La Salle Passy Buzenval — 2 ans<br>
-  XV Birois — 1 an
-</div>
+      <h3 class="card-title">Team Captain</h3>
+      <p class="card-desc">Captain of a 15-player team at 18. A leader isn't the one who shouts the loudest, but the one who leads by example and shows the way through effort.</p>
+      <div class="card-year">
+        Rugby Club Paris-Neuilly — 5 years<br>
+        CPGE La Salle Passy Buzenval — 2 years<br>
+        XV Birois — 1 year
+      </div>
     </div>
     <div class="card">
-      <div class="card-tag">Alpinisme</div>
+      <div class="card-tag">Mountaineering</div>
       <div class="card-arrow">↗</div>
-      <h3 class="card-title">En montagne</h3>
-      <p class="card-desc">L'alpinisme m'a appris l'effort dans la solitude et la gestion du risque. [Ajouter une anecdote ou un sommet marquant]</p>
-      <div class="card-year">[Années de pratique]</div>
+      <h3 class="card-title">In the Mountains</h3>
+      <p class="card-desc">Mountaineering taught me effort in solitude and risk management. [Add an anecdote or a specific summit]</p>
+      <div class="card-year">[Years of practice]</div>
     </div>
     <div class="card">
-      <div class="card-tag">Voile</div>
+      <div class="card-tag">Sailing</div>
       <div class="card-arrow">↗</div>
-      <h3 class="card-title">Sur l'eau</h3>
-      <p class="card-desc">[Décrire votre expérience en voile — compétitions, navigation hauturière, niveau, club. Supprimer cette carte si peu significatif]</p>
-      <div class="card-year">[Années]</div>
+      <h3 class="card-title">On the Water</h3>
+      <p class="card-desc">[Describe your sailing experience — competitions, offshore navigation, level, club.]</p>
+      <div class="card-year">[Years]</div>
     </div>
   </div>
 </section>
 
-<!-- ENGAGEMENTS ASSOCIATIFS -->
 <section id="associatif" style="background: var(--warm);">
   <div class="section-header reveal">
     <span class="section-num">04</span>
-    <h2 class="section-title">Engagements <em>associatifs</em></h2>
+    <h2 class="section-title">Community <em>engagement</em></h2>
   </div>
   <div class="cards-grid reveal">
     <div class="card" style="background: var(--warm);">
-      <div class="card-tag">Bénévolat</div>
+      <div class="card-tag">Volunteering</div>
       <div class="card-arrow">↗</div>
-      <h3 class="card-title">Pèlerinages à Lourdes</h3>
-      <p class="card-desc">Plusieurs séjours pour accompagner des personnes gravement handicapées. Grandir à deux m'avait appris à ne jamais porter un effort seul — mais là, pas de binôme, pas d'équipe. Juste une présence totale.</p>
-      <div class="card-year">[Années] — [Association organisatrice]</div>
+      <h3 class="card-title">Lourdes Pilgrimages</h3>
+      <p class="card-desc">Several stays assisting people with severe disabilities. Growing up as a twin taught me never to carry an effort alone—but here, there was no partner, no team. Just total presence.</p>
+      <div class="card-year">[Years] — [Organization]</div>
     </div>
     <div class="card" style="background: var(--warm);">
-      <div class="card-tag">À compléter</div>
+      <div class="card-tag">To complete</div>
       <div class="card-arrow">↗</div>
-      <h3 class="card-title">Autre engagement</h3>
-      <p class="card-desc">[Ajouter ici un autre engagement associatif — scoutisme, association étudiante à l'ENSAM, tuteurage, etc.]</p>
-      <div class="card-year">[Années]</div>
+      <h3 class="card-title">Other involvement</h3>
+      <p class="card-desc">[Add here another involvement — scouting, student association at ENSAM, tutoring, etc.]</p>
+      <div class="card-year">[Years]</div>
     </div>
   </div>
 </section>
 
-<!-- ENGAGEMENTS EXTRASCOLAIRES -->
 <section id="extrascolaire">
   <div class="section-header reveal">
     <span class="section-num">05</span>
-    <h2 class="section-title">Hors des <em>sentiers</em></h2>
+    <h2 class="section-title">Off the <em>beaten path</em></h2>
   </div>
   <div class="cards-grid reveal">
     <div class="card">
-      <div class="card-tag">Musique</div>
+      <div class="card-tag">Music</div>
       <div class="card-arrow">↗</div>
-      <h3 class="card-title">Piano — 12 ans de pratique</h3>
-      <p class="card-desc">Derrière chaque partition, comme La Tempête de Beethoven qui m'a tenu tête pendant six mois, se cachent des centaines d'heures de solitude et de répétition. La maîtrise technique n'est jamais un acquis.</p>
-      <div class="card-year">2009 — 2021 · [Conservatoire / École de musique]</div>
+      <h3 class="card-title">Piano — 12 years of practice</h3>
+      <p class="card-desc">Behind every score, like Beethoven's Tempest which challenged me for six months, lie hundreds of hours of solitude and repetition. Technical mastery is never a given.</p>
+      <div class="card-year">2009 — 2021 · [Conservatory / Music School]</div>
     </div>
     <div class="card">
-      <div class="card-tag">Mécanique</div>
+      <div class="card-tag">Mechanics</div>
       <div class="card-arrow">↗</div>
-      <h3 class="card-title">Sports mécaniques</h3>
-      <p class="card-desc">Sous l'œil de mon grand-père, des heures à traquer des pannes invisibles. Une école d'humilité face à la matière et de rigueur du diagnostic. C'est ici que mon projet d'ingénieur prend sa source.</p>
-      <div class="card-year">[Préciser : karting, moto, restauration de véhicules, etc.]</div>
+      <h3 class="card-title">Motorsports</h3>
+      <p class="card-desc">Under my grandfather's eye, hours spent tracking invisible faults. A school of humility before matter and diagnostic rigor. This is where my engineering project began.</p>
+      <div class="card-year">[Specify: karting, motorcycle, vehicle restoration, etc.]</div>
     </div>
     <div class="card">
-      <div class="card-tag">À compléter</div>
+      <div class="card-tag">To complete</div>
       <div class="card-arrow">↗</div>
-      <h3 class="card-title">Autre activité</h3>
-      <p class="card-desc">[Ajouter ici une activité extrascolaire supplémentaire si pertinent]</p>
-      <div class="card-year">[Années]</div>
+      <h3 class="card-title">Other activity</h3>
+      <p class="card-desc">[Add here an additional extra-curricular activity if relevant]</p>
+      <div class="card-year">[Years]</div>
     </div>
   </div>
 </section>
 
-<!-- PROJETS ACADÉMIQUES -->
 <section id="projets-acad" style="background: var(--warm);">
   <div class="section-header reveal">
     <span class="section-num">06</span>
-    <h2 class="section-title">Projets <em>académiques</em></h2>
+    <h2 class="section-title">Academic <em>projects</em></h2>
   </div>
   <div class="timeline reveal">
     <div class="timeline-item" style="background:transparent;">
       <div class="timeline-date">ENSAM · [Date]</div>
       <div class="timeline-content">
-        <div class="school">Projet à compléter</div>
-        <h3>[Titre du projet]</h3>
-        <p>[Décrire le projet : contexte, problème posé, méthodologie, résultats. Ex : conception d'un système de freinage régénératif, simulation thermique, projet de groupe pluridisciplinaire, etc.]</p>
+        <div class="school">Project Title</div>
+        <h3>[Project Name]</h3>
+        <p>[Describe the project: context, problem, methodology, results. Ex: design of a regenerative braking system, thermal simulation, multidisciplinary group project, etc.]</p>
       </div>
     </div>
     <div class="timeline-item" style="background:transparent;">
       <div class="timeline-date">CPGE · [Date]</div>
       <div class="timeline-content">
-        <div class="school">Projet à compléter</div>
-        <h3>[Titre du projet]</h3>
-        <p>[Décrire un travail notable de prépa — TIPE, rapport, projet de physique ou de sciences de l'ingénieur]</p>
+        <div class="school">TIPE / Research Project</div>
+        <h3>[Project Title]</h3>
+        <p>[Describe a notable work from prep school — personal research project, physics or engineering science report]</p>
       </div>
     </div>
     <div class="timeline-item" style="background:transparent;">
-      <div class="timeline-date">Stage · [Date]</div>
+      <div class="timeline-date">Internship · [Date]</div>
       <div class="timeline-content">
-        <div class="school">[Entreprise / Organisme]</div>
-        <h3>Stage — [Intitulé]</h3>
-        <p>[Décrire vos stages : missions, compétences développées, résultats concrets]</p>
+        <div class="school">[Company / Organization]</div>
+        <h3>Internship — [Title]</h3>
+        <p>[Describe your internships: missions, skills developed, concrete results]</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- SIDE PROJECTS -->
 <section id="side-projects">
   <div class="section-header reveal">
     <span class="section-num">07</span>
@@ -728,26 +716,25 @@
   </div>
   <div class="cards-grid reveal">
     <div class="card">
-      <div class="card-tag">Projet personnel</div>
+      <div class="card-tag">Personal Project</div>
       <div class="card-arrow">↗</div>
-      <h3 class="card-title">[Nom du projet]</h3>
-      <p class="card-desc">[Décrire un projet personnel : restauration d'un moteur, construction d'un objet, projet numérique, prototype, etc. Ce sont souvent les plus mémorables pour un admissions officer.]</p>
-      <div class="card-year">[Année]</div>
+      <h3 class="card-title">[Project Name]</h3>
+      <p class="card-desc">[Describe a personal project: motor restoration, building an object, digital project, prototype, etc. These are often the most memorable for an admissions officer.]</p>
+      <div class="card-year">[Year]</div>
     </div>
     <div class="card">
-      <div class="card-tag">Projet personnel</div>
+      <div class="card-tag">Personal Project</div>
       <div class="card-arrow">↗</div>
-      <h3 class="card-title">[Nom du projet]</h3>
-      <p class="card-desc">[Second projet personnel à décrire]</p>
-      <div class="card-year">[Année]</div>
+      <h3 class="card-title">[Project Name]</h3>
+      <p class="card-desc">[Second personal project to describe]</p>
+      <div class="card-year">[Year]</div>
     </div>
   </div>
 </section>
 
-<!-- FOOTER -->
 <footer>
   <span class="f-name">Benoît Gadret</span>
-  <span class="f-mono">Portfolio · Candidature Master's · 2026</span>
+  <span class="f-mono">Portfolio · Master's Application · 2026</span>
   <span class="f-mono">benoitgadret@gmail.com</span>
   <span class="f-mono">benoit.gadret@ensam.eu</span>
 </footer>
